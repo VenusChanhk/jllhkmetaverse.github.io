@@ -5,14 +5,14 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
-        <a-marker type="pattern" preset="custom" url="https://venuschanhk.github.io/myfirstar.github.io/pattern-jll.patt">
+        <a-marker-camera type="pattern" preset="custom" url="https://venuschanhk.github.io/jllhkmetaverse.github.io/pattern-jll.patt">
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
             <a-entity
-            position="3.22 0.0001 0"
+            position="3.22 0.0001 3.22"
             scale="0.0000911743 0.0000911743 0.0000911743"
-            gltf-model="https://venuschanhk.github.io/myfirstar.github.io/MTR_GLTF/HK_MTR_all_boundary_2_0.glb"
+            gltf-model="https://venuschanhk.github.io/jllhkmetaverse.github.io/MTR_GLTF/HK_MTR_all_boundary_2_0.glb"
             ></a-entity>
-        </a-marker>
+        </a-marker-camera>
         <a-entity camera></a-entity>
         </a-scene>
     </body>
